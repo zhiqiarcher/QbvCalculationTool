@@ -1,0 +1,45 @@
+<System>
+  <Ports>
+    <Port>
+        <PortID>0</PortID>
+        <PortName>Port0</PortName>
+        <TransmitSpeedInMbps>100</TransmitSpeedInMbps>
+        <InBoundDelayinUs>200</InBoundDelayinUs>
+    </Port>
+    <Port>
+        <PortID>1</PortID>
+        <PortName>Port1</PortName>
+        <TransmitSpeedInMbps>100</TransmitSpeedInMbps>
+        <InBoundDelayinUs>200</InBoundDelayinUs>
+    </Port>
+    <Port>
+        <PortID>2</PortID>
+        <PortName>Port2</PortName>
+        <TransmitSpeedInMbps>100</TransmitSpeedInMbps>
+        <InBoundDelayinUs>200</InBoundDelayinUs>
+    </Port>
+  </Ports>
+  <Streams>
+    <Stream>
+        <StreamID>0</StreamID>
+        <StreamName>Stream0</StreamName>
+        <FrameSizeinBytes>10000</FrameSizeinBytes>
+        <FrameSendIntervalinMs>2</FrameSendIntervalinMs>
+        <RequiredDelayinMs>2</RequiredDelayinMs>
+        <Path>[0,1]</Path>
+    </Stream>
+  </Streams>
+  <Meta>
+    <AmtofQbvCls>3</AmtofQbvCls>
+    <GuardBandSizeinBits>1000</GuardBandSizeinBits>
+    <MiniNoQbvSizeSlotinBits>0</MiniNoQbvSizeSlotinBits>
+  </Meta>
+</System>
+
+
+
+
+
+
+
+
